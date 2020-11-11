@@ -5,3 +5,9 @@ This is a First Person level for the game Quake. Everyone in the facility is gon
 The link to my procces Journal [Process Journal](https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki)
 
 The link to my Custom WAD [Custom Wad](https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Theme)
+
+The link to the enenmies for the level (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Enemies)
+
+The link to the Areas for the level (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Areas)
+ 
+The link to the Bubble Diagram (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Areas)
