@@ -11,3 +11,5 @@ The link to the enenmies for the level (https://github.com/ZetaKnight117/FPLD-Qu
 The link to the Areas for the level (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Areas)
  
 The link to the Bubble Diagram (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Bubble-Diagram)
+
+The Link to my Topdown Walkthrough and Gameplay (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Topdown-and-Gameplay-Walkthrough)
