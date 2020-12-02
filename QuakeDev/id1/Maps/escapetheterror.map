@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "C:/QuakeDev/wads/prototype_1_2.wad"
+"wad" "C:/QuakeDev/wads/prototype_1_2.wad;C:/Users/Harmoni/Documents/GitHub/FPLD-Quake-Level/QuakeDev/wads/escapetheterror.wad"
 "_tb_def" "builtin:Quake.fgd"
 // brush 0
 {
