@@ -1,15 +1,17 @@
-/trenchbroom/
-/source/
-/tools/
-*.PAK
-*.dll
-*.zip
-*.exe
-*.sav
-*/compile.bat
-Quakespasm.html
-Quakespasm.txt
-Quakespasm-Music.txt
-history.txt
-LICENSE.txt
-*.prt
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# Allow only pngs in images folder
+!Quake FpS Theme Images/*.png
+
+# if the files to be tracked are in subdirectories
+!QuakeDev/id1/maps/testlevel.map
+!QuakeDev/id1/maps/mymap.map
