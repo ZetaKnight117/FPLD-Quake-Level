@@ -13,5 +13,4 @@
 !Quake FpS Theme Images/*.png
 
 # if the files to be tracked are in subdirectories
-!QuakeDev/id1/maps/testlevel.map
-!QuakeDev/id1/maps/mymap.map
+!QuakeDev/id1/maps/escapetheterror.map
