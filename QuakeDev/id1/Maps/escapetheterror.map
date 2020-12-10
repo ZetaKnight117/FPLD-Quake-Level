@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "C:/QuakeDev/wads/prototype_1_2.wad;C:/Users/Harmoni/Documents/GitHub/FPLD-Quake-Level/QuakeDev/wads/escapetheterror.wad;C:/Users/Harmoni/Documents/GitHub/FPLD-Quake-Level/QuakeDev/wads/rogue.wad"
+"wad" "C:/QuakeDev/wads/prototype_1_2.wad;C:/Users/Harmoni/Documents/GitHub/FPLD-Quake-Level/QuakeDev/wads/escapetheterror.wad;C:/Users/Harmoni/Documents/GitHub/FPLD-Quake-Level/QuakeDev/wads/rogue.wad;C:/Users/Harmoni/Documents/GitHub/FPLD-Quake-Level/QuakeDev/wads/START.WAD"
 "_tb_def" "builtin:Quake.fgd"
 // brush 0
 {
@@ -2506,5 +2506,126 @@
 // entity 1
 {
 "classname" "info_player_start"
-"origin" "-16 -32 44"
+"origin" "-16 32 44"
+}
+// entity 2
+{
+"classname" "monster_enforcer"
+"origin" "-240 -688 120"
+}
+// entity 3
+{
+"classname" "monster_enforcer"
+"origin" "-32 -672 120"
+}
+// entity 4
+{
+"classname" "monster_enforcer"
+"origin" "160 -656 120"
+}
+// entity 5
+{
+"classname" "item_key1"
+"origin" "192 -736 144"
+}
+// entity 6
+{
+"classname" "item_shells"
+"origin" "-288 -496 96"
+}
+// entity 7
+{
+"classname" "item_spikes"
+"origin" "-288 -448 96"
+}
+// entity 8
+{
+"classname" "item_rockets"
+"origin" "-176 -736 96"
+}
+// entity 9
+{
+"classname" "item_health"
+"origin" "16 -560 96"
+}
+// entity 10
+{
+"classname" "item_health"
+"origin" "16 -496 96"
+}
+// entity 11
+{
+"classname" "item_shells"
+"origin" "-256 -560 96"
+}
+// entity 12
+{
+"classname" "item_shells"
+"origin" "-256 -608 96"
+}
+// entity 13
+{
+"classname" "weapon_nailgun"
+"origin" "-80 -432 96"
+}
+// entity 14
+{
+"classname" "func_door"
+"spawnflags" "1"
+"angle" "180"
+"targetname" "firstdoor"
+// brush 0
+{
+( -80 -112 16 ) ( -80 -111 16 ) ( -80 -112 17 ) 128_cyan_2 0 0 0 0.7 0.9
+( 0 -112 16 ) ( 0 -112 17 ) ( 1 -112 16 ) 128_cyan_2 0 0 0 0.7 0.9
+( 0 -112 16 ) ( 1 -112 16 ) ( 0 -111 16 ) 128_cyan_2 0 0 0 0.7 0.9
+( 16 -96 112 ) ( 16 -95 112 ) ( 17 -96 112 ) 128_cyan_2 0 0 0 0.7 0.9
+( 16 -96 32 ) ( 17 -96 32 ) ( 16 -96 33 ) 128_cyan_2 0 0 0 0.7 0.9
+( 16 -96 32 ) ( 16 -96 33 ) ( 16 -95 32 ) 128_cyan_2 0 0 0 0.7 0.9
+}
+}
+// entity 15
+{
+"classname" "trigger_multiple"
+"targetname" "firstdoor"
+"spawnflags" "1"
+// brush 0
+{
+( -80 -96 16 ) ( -80 -95 16 ) ( -80 -96 17 ) trigger 0 0 0 1 1
+( -80 -96 16 ) ( -80 -96 17 ) ( -79 -96 16 ) trigger 0 0 0 1 1
+( -80 -96 16 ) ( -79 -96 16 ) ( -80 -95 16 ) trigger 0 0 0 1 1
+( -16 -80 32 ) ( -16 -79 32 ) ( -15 -80 32 ) trigger 0 0 0 1 1
+( -16 -80 32 ) ( -15 -80 32 ) ( -16 -80 33 ) trigger 0 0 0 1 1
+( 16 -80 32 ) ( 16 -80 33 ) ( 16 -79 32 ) trigger 0 0 0 1 1
+}
+}
+// entity 16
+{
+"classname" "func_door"
+"angle" "180"
+"targetname" "labdoor"
+"spawnflags" "1"
+// brush 0
+{
+( -80 -768 96 ) ( -80 -767 96 ) ( -80 -768 97 ) 64_cyan_1 0 0 0 1 1
+( -80 -768 96 ) ( -80 -768 97 ) ( -79 -768 96 ) 64_cyan_1 0 0 0 1 1
+( -80 -768 96 ) ( -79 -768 96 ) ( -80 -767 96 ) 64_cyan_1 0 0 0 1 1
+( 32 -752 192 ) ( 32 -751 192 ) ( 33 -752 192 ) 64_cyan_1 0 0 0 1 1
+( 32 -752 112 ) ( 33 -752 112 ) ( 32 -752 113 ) 64_cyan_1 0 0 0 1 1
+( 32 -752 112 ) ( 32 -752 113 ) ( 32 -751 112 ) 64_cyan_1 0 0 0 1 1
+}
+}
+// entity 17
+{
+"classname" "trigger_multiple"
+"targetname" "labdoor"
+// brush 0
+{
+( -80 -752 96 ) ( -80 -751 96 ) ( -80 -752 97 ) trigger 0 0 0 1 1
+( -80 -752 96 ) ( -80 -752 97 ) ( -79 -752 96 ) trigger 0 0 0 1 1
+( -80 -752 96 ) ( -79 -752 96 ) ( -80 -751 96 ) trigger 0 0 0 1 1
+( 32 -736 112 ) ( 32 -735 112 ) ( 33 -736 112 ) trigger 0 0 0 1 1
+( 32 -736 112 ) ( 33 -736 112 ) ( 32 -736 113 ) trigger 0 0 0 1 1
+( 32 -736 112 ) ( 32 -736 113 ) ( 32 -735 112 ) trigger 0 0 0 1 1
+}
 }
