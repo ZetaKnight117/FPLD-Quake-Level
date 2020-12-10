@@ -2506,7 +2506,7 @@
 // entity 1
 {
 "classname" "info_player_start"
-"origin" "-16 32 44"
+"origin" "-16 96 44"
 }
 // entity 2
 {
@@ -2573,7 +2573,7 @@
 "classname" "func_door"
 "spawnflags" "1"
 "angle" "180"
-"targetname" "start_door"
+"targetname" "startdoor"
 "wait" "3"
 "lip" "-8"
 // brush 0
@@ -2614,5 +2614,19 @@
 ( 32 -736 112 ) ( 32 -735 112 ) ( 33 -736 112 ) trigger 0 0 0 1 1
 ( 32 -736 112 ) ( 33 -736 112 ) ( 32 -736 113 ) trigger 0 0 0 1 1
 ( 32 -736 112 ) ( 32 -736 113 ) ( 32 -735 112 ) trigger 0 0 0 1 1
+}
+}
+// entity 17
+{
+"classname" "func_button"
+"targetname" "startdoor"
+// brush 0
+{
+( -144 -96 64 ) ( -144 -95 64 ) ( -144 -96 65 ) basebutn1 0 0 0 1 1
+( -144 -96 64 ) ( -144 -96 65 ) ( -143 -96 64 ) basebutn1 0 0 0 1 1
+( -144 -96 64 ) ( -143 -96 64 ) ( -144 -95 64 ) basebutn1 0 0 0 1 1
+( -128 -80 80 ) ( -128 -79 80 ) ( -127 -80 80 ) basebutn1 -57.3322 43.1743 0 1.74191 1.78353
+( -128 -80 80 ) ( -127 -80 80 ) ( -128 -80 81 ) basebutn1 -7 -7 0 1 1
+( -128 -80 80 ) ( -128 -80 81 ) ( -128 -79 80 ) basebutn1 0 0 0 1 1
 }
 }
