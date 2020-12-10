@@ -2695,51 +2695,22 @@
 }
 // entity 11
 {
-"classname" "monster_zombie"
-"origin" "528 -1008 56"
+"classname" "monster_army"
+"origin" "736 -1232 56"
+"angle" "90"
 }
 // entity 12
 {
-"classname" "monster_zombie"
-"origin" "704 -1072 56"
-}
-// entity 13
-{
-"classname" "monster_zombie"
-"origin" "688 -944 56"
-}
-// entity 14
-{
-"classname" "monster_army"
-"origin" "736 -1232 56"
-}
-// entity 15
-{
 "classname" "monster_army"
 "origin" "624 -1024 56"
+"angle" "90"
 }
-// entity 16
+// entity 13
 {
 "classname" "weapon_lightning"
 "origin" "-32 -1296 240"
 }
-// entity 17
-{
-"classname" "func_door"
-"targetname" "dungeon_door"
-"spawnflags" "0"
-"angle" "100"
-// brush 0
-{
-( 288 -624 96 ) ( 288 -623 96 ) ( 288 -624 97 ) 64_brown_2 0 0 0 1 1
-( 288 -624 96 ) ( 288 -624 97 ) ( 289 -624 96 ) 64_brown_2 0 0 0 1 1
-( 288 -624 96 ) ( 289 -624 96 ) ( 288 -623 96 ) 64_brown_2 0 0 0 1 1
-( 304 -512 192 ) ( 304 -511 192 ) ( 305 -512 192 ) 64_brown_2 0 0 0 1 1
-( 304 -512 112 ) ( 305 -512 112 ) ( 304 -512 113 ) 64_brown_2 0 0 0 1 1
-( 304 -512 112 ) ( 304 -512 113 ) ( 304 -511 112 ) 64_brown_2 0 0 0 1 1
-}
-}
-// entity 18
+// entity 14
 {
 "classname" "func_door"
 "targetname" "labdoor"
@@ -2755,7 +2726,7 @@
 ( 32 -752 112 ) ( 32 -752 113 ) ( 32 -751 112 ) __TB_empty 0 0 0 1 1
 }
 }
-// entity 19
+// entity 15
 {
 "classname" "trigger_once"
 "target" "startdoor"
@@ -2769,112 +2740,112 @@
 ( 16 -80 32 ) ( 16 -80 33 ) ( 16 -79 32 ) trigger 0 0 0 1 1
 }
 }
-// entity 20
+// entity 16
 {
 "classname" "monster_enforcer"
 "origin" "-192 -1328 232"
 }
-// entity 21
+// entity 17
 {
 "classname" "monster_army"
 "origin" "-48 -1488 232"
 }
-// entity 22
+// entity 18
 {
 "classname" "monster_army"
 "origin" "-48 -1200 232"
 }
-// entity 23
+// entity 19
 {
 "classname" "monster_army"
 "origin" "112 -1312 232"
 }
-// entity 24
+// entity 20
 {
 "classname" "item_key2"
 "origin" "208 -1568 72"
 }
-// entity 25
+// entity 21
 {
 "classname" "item_key2"
 "origin" "-96 0 40"
 }
-// entity 26
+// entity 22
 {
 "classname" "monster_knight"
 "origin" "-128 -2240 152"
 "angle" "75"
 }
-// entity 27
+// entity 23
 {
 "classname" "monster_knight"
 "origin" "96 -2272 152"
 "angle" "75"
 }
-// entity 28
+// entity 24
 {
 "classname" "monster_hell_knight"
 "origin" "0 -2832 152"
 "angle" "90"
 }
-// entity 29
+// entity 25
 {
 "classname" "monster_hell_knight"
 "origin" "-96 -2752 152"
 "angle" "90"
 }
-// entity 30
+// entity 26
 {
 "classname" "monster_hell_knight"
 "origin" "96 -2752 152"
 "angle" "90"
 }
-// entity 31
+// entity 27
 {
 "classname" "item_health"
 "origin" "-16 -1136 32"
 }
-// entity 32
+// entity 28
 {
 "classname" "item_health"
 "origin" "-96 -1136 32"
 }
-// entity 33
+// entity 29
 {
 "classname" "item_spikes"
 "origin" "272 -1200 32"
 }
-// entity 34
+// entity 30
 {
 "classname" "item_spikes"
 "origin" "-320 -1200 32"
 }
-// entity 35
+// entity 31
 {
 "classname" "item_shells"
 "origin" "272 -1408 32"
 }
-// entity 36
+// entity 32
 {
 "classname" "item_armor1"
 "origin" "-80 -1056 64"
 "angle" "255"
 }
-// entity 37
+// entity 33
 {
 "classname" "item_armor1"
 "origin" "16 -1056 64"
 "angle" "255"
 }
-// entity 38
+// entity 34
 {
 "classname" "weapon_rocketlauncher"
 "origin" "16 -1248 32"
 }
-// entity 39
+// entity 35
 {
 "classname" "func_door"
-"angle" "180"
+"angle" "80"
 "targetname" "labdoor2"
 // brush 0
 {
@@ -2886,7 +2857,7 @@
 ( 432 -1264 48 ) ( 432 -1264 49 ) ( 432 -1263 48 ) 64_cyan_3 0 0 0 1 1
 }
 }
-// entity 40
+// entity 36
 {
 "classname" "trigger_once"
 "target" "labdoor2"
@@ -2900,7 +2871,7 @@
 ( 448 -1264 48 ) ( 448 -1264 49 ) ( 448 -1263 48 ) trigger 0 0 0 1 1
 }
 }
-// entity 41
+// entity 37
 {
 "classname" "trigger_multiple"
 "target" "dungeon_door"
@@ -2914,7 +2885,7 @@
 ( 272 -512 112 ) ( 272 -512 113 ) ( 272 -511 112 ) trigger 0 0 0 1 1
 }
 }
-// entity 42
+// entity 38
 {
 "classname" "func_door"
 "angle" "180"
@@ -2929,22 +2900,22 @@
 ( 96 -1632 48 ) ( 96 -1632 49 ) ( 96 -1631 48 ) 128_grey_2 0 0 0 1 1
 }
 }
-// entity 43
+// entity 39
 {
 "classname" "item_rockets"
 "origin" "-272 -1296 32"
 }
-// entity 44
+// entity 40
 {
 "classname" "item_rockets"
 "origin" "-272 -1264 32"
 }
-// entity 45
+// entity 41
 {
 "classname" "item_rockets"
 "origin" "-272 -1344 32"
 }
-// entity 46
+// entity 42
 {
 "classname" "func_door"
 "targetname" "medievalroom2"
@@ -2959,12 +2930,12 @@
 ( 48 -2400 144 ) ( 48 -2400 145 ) ( 48 -2399 144 ) 128_grey_2 0 0 0 1 1
 }
 }
-// entity 47
+// entity 43
 {
 "classname" "item_key2"
 "origin" "-208 -2368 152"
 }
-// entity 48
+// entity 44
 {
 "classname" "trigger_once"
 "target" "labdoor"
@@ -2978,4 +2949,38 @@
 ( 32 -736 112 ) ( 33 -736 112 ) ( 32 -736 113 ) trigger 0 0 0 1 1
 ( 32 -736 112 ) ( 32 -736 113 ) ( 32 -735 112 ) trigger 0 0 0 1 1
 }
+}
+// entity 45
+{
+"classname" "monster_tarbaby"
+"origin" "720 -1056 56"
+"angle" "75"
+}
+// entity 46
+{
+"classname" "monster_demon1"
+"origin" "816 -1040 56"
+"angle" "90"
+}
+// entity 47
+{
+"classname" "trigger_once"
+"targetname" "dungeon_door"
+"spawnflags" "0"
+"angle" "-180"
+// brush 0
+{
+( 288 -624 96 ) ( 288 -623 96 ) ( 288 -624 97 ) 64_brown_2 0 0 0 1 1
+( 288 -624 96 ) ( 288 -624 97 ) ( 289 -624 96 ) 64_brown_2 0 0 0 1 1
+( 288 -624 96 ) ( 289 -624 96 ) ( 288 -623 96 ) 64_brown_2 0 0 0 1 1
+( 304 -512 192 ) ( 304 -511 192 ) ( 305 -512 192 ) 64_brown_2 0 0 0 1 1
+( 304 -512 112 ) ( 305 -512 112 ) ( 304 -512 113 ) 64_brown_2 0 0 0 1 1
+( 304 -512 112 ) ( 304 -512 113 ) ( 304 -511 112 ) 64_brown_2 0 0 0 1 1
+}
+}
+// entity 48
+{
+"classname" "monster_ogre"
+"origin" "608 -1280 56"
+"angle" "90"
 }
