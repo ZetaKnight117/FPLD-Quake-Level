@@ -2620,6 +2620,7 @@
 {
 "classname" "func_button"
 "targetname" "startdoor"
+"wait" "1"
 // brush 0
 {
 ( -144 -96 64 ) ( -144 -95 64 ) ( -144 -96 65 ) basebutn1 0 0 0 1 1
@@ -2629,4 +2630,29 @@
 ( -128 -80 80 ) ( -127 -80 80 ) ( -128 -80 81 ) basebutn1 -7 -7 0 1 1
 ( -128 -80 80 ) ( -128 -80 81 ) ( -128 -79 80 ) basebutn1 0 0 0 1 1
 }
+}
+// entity 18
+{
+"classname" "monster_zombie"
+"origin" "528 -1024 56"
+}
+// entity 19
+{
+"classname" "monster_zombie"
+"origin" "704 -1088 56"
+}
+// entity 20
+{
+"classname" "monster_zombie"
+"origin" "688 -960 56"
+}
+// entity 21
+{
+"classname" "monster_army"
+"origin" "736 -1248 56"
+}
+// entity 22
+{
+"classname" "monster_army"
+"origin" "624 -1040 56"
 }
