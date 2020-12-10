@@ -2573,7 +2573,9 @@
 "classname" "func_door"
 "spawnflags" "1"
 "angle" "180"
-"targetname" "firstdoor"
+"targetname" "start_door"
+"wait" "3"
+"lip" "-8"
 // brush 0
 {
 ( -80 -112 16 ) ( -80 -111 16 ) ( -80 -112 17 ) 128_cyan_2 0 0 0 0.7 0.9
@@ -2585,21 +2587,6 @@
 }
 }
 // entity 15
-{
-"classname" "trigger_multiple"
-"targetname" "firstdoor"
-"spawnflags" "1"
-// brush 0
-{
-( -80 -96 16 ) ( -80 -95 16 ) ( -80 -96 17 ) trigger 0 0 0 1 1
-( -80 -96 16 ) ( -80 -96 17 ) ( -79 -96 16 ) trigger 0 0 0 1 1
-( -80 -96 16 ) ( -79 -96 16 ) ( -80 -95 16 ) trigger 0 0 0 1 1
-( -16 -80 32 ) ( -16 -79 32 ) ( -15 -80 32 ) trigger 0 0 0 1 1
-( -16 -80 32 ) ( -15 -80 32 ) ( -16 -80 33 ) trigger 0 0 0 1 1
-( 16 -80 32 ) ( 16 -80 33 ) ( 16 -79 32 ) trigger 0 0 0 1 1
-}
-}
-// entity 16
 {
 "classname" "func_door"
 "angle" "180"
@@ -2615,7 +2602,7 @@
 ( 32 -752 112 ) ( 32 -752 113 ) ( 32 -751 112 ) 64_cyan_1 0 0 0 1 1
 }
 }
-// entity 17
+// entity 16
 {
 "classname" "trigger_multiple"
 "targetname" "labdoor"
