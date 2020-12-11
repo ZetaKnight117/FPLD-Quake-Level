@@ -4445,3 +4445,23 @@
 "classname" "monster_army"
 "origin" "-112 -1104 232"
 }
+// entity 72
+{
+"classname" "item_shells"
+"origin" "-80 176 16"
+}
+// entity 73
+{
+"classname" "misc_explobox2"
+"origin" "272 144 16"
+}
+// entity 74
+{
+"classname" "misc_explobox2"
+"origin" "-1216 -1376 208"
+}
+// entity 75
+{
+"classname" "misc_explobox2"
+"origin" "-864 -1376 208"
+}
