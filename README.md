@@ -13,3 +13,13 @@ The link to the Areas for the level (https://github.com/ZetaKnight117/FPLD-Quake
 The link to the Bubble Diagram (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Bubble-Diagram)
 
 The Link to my Topdown Walkthrough and Gameplay (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Topdown-and-Gameplay-Walkthrough)
+
+The link to my Greybox (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Greybox)
+
+The link to my Lighting and Textures (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Lighting-and-Textures)
+
+the Link to my Playtest (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Playtest-1)
+
+the link to my Gameplay Page (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Gameplay)
+
+The link to my Final Walkthrough (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Final-map-walkthrough-video)
