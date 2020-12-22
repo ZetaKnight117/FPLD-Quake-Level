@@ -18,8 +18,8 @@ The link to my Greybox (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/G
 
 The link to my Lighting and Textures (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Lighting-and-Textures)
 
-the Link to my Playtest (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Playtest-1)
+The Link to my Playtest (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Playtest-1)
 
-the link to my Gameplay Page (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Gameplay)
+The link to my Gameplay Page (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Gameplay)
 
 The link to my Final Walkthrough (https://github.com/ZetaKnight117/FPLD-Quake-Level/wiki/Final-map-walkthrough-video)
